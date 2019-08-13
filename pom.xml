@@ -4,7 +4,7 @@
   <groupId>com.javawebtutor</groupId>
   <artifactId>LoginWebApp</artifactId>
   <packaging>war</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>LoginWebApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -67,11 +67,11 @@
                                 <timeoutSec>60</timeoutSec>
                             </artifactory>
                             <publisher>
-                                <contextUrl>http://localhost:8081/artifactory</contextUrl>
-                                <username>admin</username>
-                                <password>password</password>
-                                <repoKey>jenkins-release</repoKey>
-                                <snapshotRepoKey>jenkins-snapshot</snapshotRepoKey>
+                                <contextUrl>http://54.189.239.126:8081/artifactory</contextUrl>
+                                <username>j-release</username>
+                                <password>1qaz2wsx0987654321</password>
+                                <repoKey>libs-release-local</repoKey>
+                                <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
                             </publisher>
                            <buildInfo>
                                 <buildName>plugin-demo</buildName>
